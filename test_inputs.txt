@@ -1,0 +1,17 @@
+TEST RUN 1: Normal Input
+----------------------
+Food Input: Chicken Biryani
+Color Input: Yellow
+Result: Success. Output showed Chicken Biryani and Yellow.
+
+TEST RUN 2: Empty Input (Validation Check)
+----------------------
+Food Input: [Pressed Enter without typing]
+Color Input: [Pressed Enter without typing]
+Result: Success. Warning message displayed. Defaulted to "Unknown".
+
+TEST RUN 3: Weird Input
+----------------------
+Food Input: 12345
+Color Input: !@#$%
+Result: Program handled it as text without crashing.
